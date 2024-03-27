@@ -1,0 +1,18 @@
+.problem{
+    p{
+        display: inline-block;
+        font-family: "TTNorms Medium";
+        font-size: 16px;
+        color: #96317D;
+        border: 1px solid #96317D;
+        border-radius: 15px;
+        padding: 15px 29px;
+        text-wrap: nowrap;
+    }
+    p:hover{
+        color: #FFFFFF;
+        background-color: #96317D;
+        cursor: pointer;
+        transition: ease-in-out 0.3s;
+    }
+}

@@ -1,0 +1,27 @@
+.team{
+    background-color: #FAFAFA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .teamWrapper{
+        .teamHeader{
+            text-align: center;
+            p{
+                font-family: "TTNorms Medium";
+                font-size: 20px;
+                color: #96317D;
+                margin-bottom: 10px;
+            }
+            h4{
+                font-family: "TTNorms Bold";
+                font-size: 40px;
+                color: #000;
+                margin-bottom: 50px;
+            }
+        }
+        .teamCards{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+        }
+    }
+}

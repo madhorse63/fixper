@@ -1,0 +1,60 @@
+.callTechician{
+    background-image: url('../../images/callMasterBg.svg');
+    background-size: 100%;
+    padding: 100px 50px;
+    .callTechicianContent{
+        max-width: calc(1340px - 50px - 50px);
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding: 50px 85px;
+        display: flex;
+        .callTechicianDescription{
+            margin-right: 50px;
+            h5{
+                font-family: "TTNorms Bold";
+                font-size: 40px;
+                color: #171717;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: "TTNorms Medium";
+                font-size: 20px;
+                color: #171717;
+                span{
+                    font-family: "TTNorms Bold";
+                    color: #A95094;
+                }
+            }
+        }
+        form{
+            input{
+                border: none;
+                background-color: #F5F5F5;
+                padding: 23px 30px;
+                border-radius: 10px;
+                width: calc(326px - 30px - 30px);
+                margin-right: 30px;
+                font-family: "TTNorms Medium";
+                font-size: 20px;
+                color: #171717;
+            }
+            input::placeholder{
+                font-family: "TTNorms Medium";
+                font-size: 16px;
+                color: #171717;
+            }
+            button{
+                color: #fff;
+                font-family: "TTNorms Medium";
+                font-size: 16px;
+                background-color: #A95094;
+                padding: 25px 96px;
+                border-radius: 10px;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

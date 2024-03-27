@@ -1,0 +1,36 @@
+.review{
+    max-width: 570px;
+    background-color: #FAFAFA;
+    padding: 75px 50px;
+    .peopleData{
+        .peopleDataWrapper{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 35px;
+            img{
+                max-width: 70px;
+                max-height: 70px;
+                border-radius: 35px;
+            }
+            .peopleDataText{
+                color: #000;
+                .name{
+                    font-family: "TTNorms Medium";
+                    font-size: 24px;
+                    margin-bottom: 8px;
+                }
+                .date{
+                    font-family: "TTNorms Regular";
+                    font-size: 16px;
+                }
+            }
+        }
+        .reviewText{
+            font-family: "TTNorms Regular";
+            font-size: 18px;
+            color: #000;
+            line-height: 150%;;
+        }
+    }
+}

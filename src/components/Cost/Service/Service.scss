@@ -1,0 +1,29 @@
+@mixin cost {
+    font-family: "TTNorms Medium";
+    font-size: 18px;
+    color: #000;
+    text-align: right;
+}
+
+.service{
+    max-width: 970px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 25px 0px;
+    border-bottom: 2px solid #ECECEC;
+    p{
+        font-family: "TTNorms Regular";
+        color: #000;
+        font-size: 16px;
+    }
+    .sparePartCost{
+        @include cost;
+    }
+    .workCost{
+        @include cost;
+    }
+    .free{
+        color: #96317D;
+    }
+}

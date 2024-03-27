@@ -1,0 +1,43 @@
+.teamCard{
+    .photo{
+        background-image: url('../../../images/teamCardBackground.svg');
+        max-height: 370px;
+    }
+    .about{
+        background-color: #fff;
+        padding: 50px 0;
+        border-radius: 0px 0px 15px 15px;
+        .aboutWrapper{
+            max-width: calc(370px - 45px - 45px);
+            margin: 0 auto;
+            .name{
+                font-family: "TTNorms Medium";
+                color: #000;
+                font-size: 24px;
+                margin-bottom: 8px;
+            }
+            .post{
+                font-family: "TTNorms Regular";
+                color: #000;
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+            .details{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                div{
+                    display: flex;
+                    img{
+                        margin-right: 12px;
+                    }
+                    p{
+                        font-family: "TTNorms Medium";
+                        color: #96317D;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

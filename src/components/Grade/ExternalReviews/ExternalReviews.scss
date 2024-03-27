@@ -1,0 +1,36 @@
+.externalReview{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 35px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    .reviewInfo{
+        border-right: 1px solid #E3E3E3;
+        margin-right: 30px;
+        .externalRating{
+            font-family: "TTNorms Bold";
+            color: #000;
+            line-height: 40px;
+            font-size: 26px;
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 10px;
+            }
+            span{
+                font-family: "TTNorms Medium";
+                font-size: 18px;
+            }
+        }
+        .amountOfReviews{
+            font-family: "TTNorms Regular";
+            line-height: 20px;
+            color: #000;
+            font-size: 16px;
+        }
+    }
+}

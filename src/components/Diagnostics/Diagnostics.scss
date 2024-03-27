@@ -1,0 +1,49 @@
+.diagnostics{
+    background-color: #FAFAFA;
+    background-image: url('../../images/grphics2.svg');
+    background-repeat: no-repeat;
+    background-position: calc(1440px - 406px) 0;
+    .diagnosticsWrapperWash{
+        background-image: url('../../images/washingMachine2.png');
+        background-repeat: no-repeat;
+        background-position: 850px 56px;
+        .wrapperGraphics{
+            margin-left: 200px;
+            background-image: url('../../images/squareStar.svg');
+            background-repeat: no-repeat;
+            background-position: 640px 580px;
+            .problemsHeader{
+                padding-top: 115px;
+                font-family: "TTNorms Bold";
+                margin-bottom: 50px;
+                h2{
+                    font-size: 13px;
+                    color: #A95094;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 45px;
+                    color: #000;
+                }
+            }
+            .problemsBody{
+                max-width: 600px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px 20px;
+            }
+            .instructions{
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                padding-bottom: 90px;
+                p{
+                    font-family: "Montserrat Medium";
+                    color: #000;
+                    font-size: 16px;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}

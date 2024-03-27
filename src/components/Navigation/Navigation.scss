@@ -1,0 +1,16 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-right: 160px;
+    a{
+        color: #FFFFFF;
+        font-family: 'TTNorms Medium';
+        text-decoration: none;
+        margin-right: 40px;
+    }
+    a:last-child{
+        margin-right: 0px;
+    }
+}

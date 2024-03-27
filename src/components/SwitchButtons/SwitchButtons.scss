@@ -1,0 +1,57 @@
+.switch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    .pages{
+        display: flex;
+        gap: 20px;
+        margin-left: 10px;
+        .activePage{
+            border: 2px solid #96317D;
+            padding: 8px;
+            border-radius: 16px;
+            margin-right: -10px;
+            margin-left: -10px;
+            cursor: pointer;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+    }
+    .prevNextButtons{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        .disabled{
+            p{
+                color: #000;
+            }
+            img{
+                display: none;
+            }
+        }
+        div{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        div:hover{
+            cursor: pointer;
+        }
+        p{
+            font-family: "TTNorms Medium";
+            font-size: 16px;
+        }
+        .previous{
+            img{
+                transform: scaleX(-1);
+            }
+        }
+        .active{
+            p{
+                color: #96317D;
+            }
+        }
+    }
+}

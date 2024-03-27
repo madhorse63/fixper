@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('./fonts/Montserrat-Bold.ttf');
+}
+@font-face{
+    font-family: 'Montserrat Medium';
+    src: url('./fonts/Montserrat-Medium.ttf');
+}
+@font-face{
+    font-family: 'Montserrat Regular';
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: 'Montserrat SemiBold';
+    src: url('./fonts/Montserrat-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'TTNorms Bold';
+    src: url('./fonts/TTNorms-Bold.ttf');
+}
+@font-face{
+    font-family: 'TTNorms ExtraBold';
+    src: url('./fonts/TTNorms-ExtraBold.ttf');
+}
+@font-face{
+    font-family: 'TTNorms Medium';
+    src: url('./fonts/TTNorms-Medium.ttf');
+}
+@font-face{
+    font-family: 'TTNorms Regular';
+    src: url('./fonts/TTNorms-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body
+{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: calc(1440px - 135px - 135px);
+    width: 100%;
+    margin: 0 auto;
+}
